@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Page</title>
+</head>
+<body>
+<form action="/logout">
+    <div th:text="${screenName}"></div>
+
+    <button type="submit">ログアウト</button>
+</form>
+</body>
+</html>
